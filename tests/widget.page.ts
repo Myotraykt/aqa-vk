@@ -5,7 +5,7 @@ enum WidgetPageSelectors {
     WIDGET_BODY = '[class^=widgetWrapper] > [class^=widget__]',
     HEADER_TEXT = 'header h5',
     BUTTON_OPEN = '[data-test=openWidget]',
-    BUTTON_WRITE_TO_US = '[class^=btn]',
+    BUTTON_WRITE_TO_US = 'div.btn__tjGhV',
     ARTICLE_POPULAR_TITLE = '[class^=popularTitle__]',
     ARTICLE_POPULAR_LIST = `${ARTICLE_POPULAR_TITLE} + ul[class^=articles__]`,
     ARTICLE_POPULAR_LIST_ITEM = `${ARTICLE_POPULAR_LIST} > li`,
